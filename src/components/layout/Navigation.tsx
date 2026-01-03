@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
@@ -45,7 +45,7 @@ export default function Navigation(props: NavigationProps) {
               data-editable-href="/"
               data-href="/"
             >
-              <Zap className="h-8 w-8 text-primary" />
+              <img src="/webline-logo-1.svg" alt="Logo" className="h-8 w-8" />
               <span
                 className="font-bold text-xl tracking-tight text-foreground"
                 data-editable="brandName"
@@ -101,7 +101,7 @@ export default function Navigation(props: NavigationProps) {
                 <div className="flex flex-col space-y-6 mt-6">
                   {/* Mobile Logo */}
                   <div className="flex items-center gap-2 pb-4 border-b border-border">
-                    <Zap className="h-6 w-6 text-primary" />
+                    <img src="/webline-logo-1.svg" alt="Logo" className="h-6 w-6" />
                     <span className="font-bold text-lg text-foreground" data-editable="brandName">
                       {config.brandName}
                     </span>

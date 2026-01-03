@@ -45,7 +45,11 @@ export default function Navigation(props: NavigationProps) {
               data-editable-href="/"
               data-href="/"
             >
-              <img src="/webline-logo-1.svg" alt="Logo" className="h-8 w-8" />
+              <img
+                src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/8381eef4a190144d2314e043c0c36863.svg"
+                alt="Logo"
+                className="h-8 w-8"
+              />
               <span
                 className="font-bold text-xl tracking-tight text-foreground"
                 data-editable="brandName"
@@ -101,7 +105,11 @@ export default function Navigation(props: NavigationProps) {
                 <div className="flex flex-col space-y-6 mt-6">
                   {/* Mobile Logo */}
                   <div className="flex items-center gap-2 pb-4 border-b border-border">
-                    <img src="/webline-logo-1.svg" alt="Logo" className="h-6 w-6" />
+                    <img
+                      src="https://pub-60de11c8c43b49ea9bd786eb6273aa91.r2.dev/8381eef4a190144d2314e043c0c36863.svg"
+                      alt="Logo"
+                      className="h-6 w-6"
+                    />
                     <span className="font-bold text-lg text-foreground" data-editable="brandName">
                       {config.brandName}
                     </span>
